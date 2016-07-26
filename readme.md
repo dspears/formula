@@ -3,10 +3,11 @@
 
 ## This is a portion of a web application that processes formulas extracted from requirements documents written in MS Word.
 
-This application was introduced to extract key formulas from existing Word-based requirements documents and store
-them in a central database.  The application not only extracts the formulas, but parses them and recusively expands
-them in cases where on formula is defined in terms of other simpler formulas.  By expanding the formulas we're able
-to identify all the individual performance metrics that factor into each formula.
+I developed this application to extract a set of mathematical formulas that describe desired system performance, 
+from Microsoft Word requirements documents, and store them in a central database.  The application not only extracts 
+the formulas, but parses them and recursively expands them in cases where a given formula is defined in terms of other simpler 
+formulas.  By expanding the formulas we're able to identify all the individual performance metrics that factor into 
+each formula.
 
 ![uploading a Word doc](https://github.com/dspears/formula/blob/master/doc/wordUpload.png)
 
